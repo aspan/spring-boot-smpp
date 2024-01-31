@@ -20,6 +20,7 @@
         <asm.version>9.6</asm.version>
         <assertj.version>3.25.2</assertj.version>
         <cloudhopper-smpp.version>8.0.1</cloudhopper-smpp.version>
+        <gitflow-maven-plugin.version>1.21.0</gitflow-maven-plugin.version>
         <jackson-bom.version>2.16.1</jackson-bom.version>
         <mockito.version>5.10.0</mockito.version>
         <netty.version>4.1.106.Final</netty.version>
@@ -75,6 +76,21 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>${gitflow-maven-plugin.version}</version>
+                <configuration>
+                    <fetchRemote>false</fetchRemote>
+                    <pushRemote>false</pushRemote>
+                    <skipTestProject>true</skipTestProject>
+                    <gitFlowConfig>
+                        <developmentBranch>develop</developmentBranch>
+                        <productionBranch>main</productionBranch>
+                    </gitFlowConfig>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
