@@ -12,7 +12,7 @@
 
     <groupId>biz.asplund</groupId>
     <artifactId>spring-boot-smpp</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>spring-boot-smpp</name>
     <description>Spring boot SMPP server and client</description>
 

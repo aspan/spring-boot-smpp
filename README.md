@@ -19,6 +19,6 @@ Spring boot starter for SMPP
     <dependency>
         <groupId>biz.asplund</groupId>
         <artifactId>spring-boot-smpp</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </dependency>
 ```
