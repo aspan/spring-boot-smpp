@@ -17,7 +17,7 @@
     <description>Spring boot SMPP server and client</description>
 
     <properties>
-        <asm.version>9.6</asm.version>
+        <asm.version>9.7</asm.version>
         <assertj.version>3.25.2</assertj.version>
         <cloudhopper-smpp.version>8.0.1</cloudhopper-smpp.version>
         <gitflow-maven-plugin.version>1.21.0</gitflow-maven-plugin.version>
